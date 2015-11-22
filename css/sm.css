@@ -9,7 +9,7 @@
   
     h1 {
       font-size: 36px;
-      text-transform: capitalize;
+      text-transform: uppercase;
       color: #4c4c4c;
       font-weight: 300;
       margin-bottom: 30px;
