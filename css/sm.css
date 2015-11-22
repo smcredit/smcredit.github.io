@@ -1,0 +1,162 @@
+/*<style>*/
+  
+  body {
+      font: 400 17px Lato, sans-serif;
+      line-height: 2;
+      color: #555;
+  }
+
+  
+    h2,h1 {
+      font-size: 40px;
+      text-transform: uppercase;
+      color: #4c4c4c;
+      font-weight: 300;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  } 
+  
+  .logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+  
+  
+.jumbotron { 
+	font-family: Montserrat, sans-serif;
+    background-color: rgba(45,45,45,1);/*#f4511e;  Orange */
+    color: #ffffff;
+	padding:100px 25px;
+}
+#sm{text-decoration:underline;}
+#crc{text-decoration:overline;}
+
+.container-fluid{
+	padding:60px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+p {color:#818181;}
+
+ul.lav{
+list-style-type:none;	
+}
+
+ul{
+line-height:30px;
+}
+
+/*Google form styling*/
+
+.ss-form{
+  padding: 15px;
+  background-color:#f6f6f6; /* #FFB400;*/
+  border-color: #b2b2b2;
+  border-style: solid;
+  border-width: 2px;
+  width:75%;
+  height:25%;
+}
+.ss-q-long {
+    resize: vertical;
+    width: 70%;
+}
+.ss-required-asterisk {
+color:black;
+}
+/* */
+
+/*Nav bar styling*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(45,45,45,1);/*rgba(255,180,0,1);*/
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/*End styleBar*/
+
+/*Slide in Elements */
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*# */
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+footer{
+  background-color: rgba(45,45,45,1);
+ 
+}
+
+
+/*</style>*/
