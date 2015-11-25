@@ -2,3 +2,4 @@ name: SM Credit Consulting
 Description: Consulenza in outsourcing nell'ambito della gestione del credito commerciale rivolta alle PMI
 encoding: utf-8
 permalink: pretty
+baseurl: "/"
