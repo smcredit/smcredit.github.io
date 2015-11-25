@@ -7,8 +7,8 @@
   }
 
   
-    h2,h1 {
-      font-size: 40px;
+    h1 {
+      font-size: 36px;
       text-transform: uppercase;
       color: #4c4c4c;
       font-weight: 300;
@@ -157,6 +157,9 @@ footer{
   background-color: rgba(45,45,45,1);
  
 }
-
+.well{
+	 color: #fff !important;
+	 background-color:#939393;
+}
 
 /*</style>*/
