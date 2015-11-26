@@ -1,7 +1,6 @@
+{% include head.html %}
 
-
-
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body>
 
 <!-- ADD A NAV BAR-->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -15,15 +14,8 @@
       <a class="navbar-brand" href="index.html/#home"><span id="sm">SM</span>/<span id ="crc">Credit Consulting</span></a>
 </div>
 
-<div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#chisiamo">CHI SIAMO</a></li>
-        <li><a href="#servizi">SERVIZI</a></li>
-        <li><a href="#lavoro">COME LAVORIAMO</a></li>
-        <li><a href="#contact">CONTATTI</a></li>
-      </ul>
-    </div>
+{{content}}
 
-</div>
 </nav>
-
+</body>
+</html>
