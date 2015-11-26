@@ -67,15 +67,18 @@ line-height:30px;
   border-color: #b2b2b2;
   border-style: solid;
   border-width: 2px;
-  width:75%;
-  height:25%;
+  width:auto;
+  height:auto;
 }
 .ss-q-long {
     resize: vertical;
-    width: 70%;
+    width: 50%;
 }
 .ss-required-asterisk {
 color:black;
+}
+.ss-q-title{
+   
 }
 /* */
 
