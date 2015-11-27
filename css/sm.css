@@ -86,7 +86,7 @@ color:red;
     
    
 }
-input,  select, button {
+input,  select,{
   width : 200px;
   height: 25px;
   line-height: 16px;
